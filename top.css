@@ -1,5 +1,5 @@
 @charset "UTF-8";
-ul li a {
+body ul{
   line-height: 50px;
 }
   
