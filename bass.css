@@ -10,3 +10,7 @@ body h1{
   background-color: #0046F9;
   font-size: x-large;
 }
+
+body p img{
+  border: 10px dotted #00FA43;
+}
