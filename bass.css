@@ -14,10 +14,3 @@ body h1{
 body p img{
   border: 10px dotted #00FA43;
 }
-
-body{
-   background-image: url(VCD.jpg);
-  background-position: 47% 0%;
-  background-repeat: no-repeat;
-  background-size: 10% 46%;
-}
