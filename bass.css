@@ -17,4 +17,5 @@ body p img{
 
 body{
    background-image: url(VCD.jpg);
+  background-repeat: no-repeat;
 }
