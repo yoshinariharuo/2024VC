@@ -3,3 +3,8 @@ body ul{
   line-height: 50px;
 }
   
+body{
+   background-image: url(VCD.jpg);
+    background-size: 150% 150%;
+  background-repeat: no-repeat;
+}
