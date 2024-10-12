@@ -4,3 +4,9 @@ body h1{
   font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN", Meriyo, sans-serif;
   font-size: 40px;
 }
+
+.key{
+  color: #F3F8#0;
+  background-color: #0046F9;
+  font-size: x-large;
+}
