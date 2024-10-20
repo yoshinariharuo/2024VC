@@ -1,1 +1,18 @@
+@charset UTF-8;
+.wrap{
+  background-color:#037386;
+  display:flex;
+}
+img{
+  width:100%;
+}
+.shop{
+  background-color:#F78486;
+  width:100%;
+}
+.cakes{
+  background-color:#88fc04;
+  float:left;
+  width:50%;
+}
 
