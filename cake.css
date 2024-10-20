@@ -10,6 +10,7 @@ img{
   background-color:#037386;
   display:flex;
   flex-wrap:wrap;
+  justfy-content:space-between;
 }
 .cakes{
   background-color:#88fc04;
