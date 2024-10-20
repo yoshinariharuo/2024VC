@@ -6,11 +6,7 @@ img{
   background-color:#F78486;
   width:100%;
 }
-.wrap{
-  background-color:#037386;
-  display:flex;
-  flex-wrap:wrap;
-}
+
 .cakes{
   background-color:#88fc04;
   float:left;
