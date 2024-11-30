@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>メニュー</title>
+	<style type = "text/css">
+		#box {
+	color: #000000;
+	background-color: #FF6633;
+	font-size: 40px;
+	text-align: center;
+	}
+	ul.wing{
+	  margin: 10px;  
+	  padding: 10px 10px 10px 10px; 
+	  background-color: #CCFFFF;
+	 }
+	 
+ 	ul.wing li{
+ 	width:150px;
+ 	display: inline-block;
+ 	list-style-type: none;
+ 	position: relative;
+ 	}
+ 	ul.wing a{
+ 	color: black;
+ 	line-height:40px;
+ 	text-align: center;
+ 	text-decoration:none;
+ 	font-weight: bold;
+ 	display:block;
+ 	}
+ 	
+ 	ul.wing ul{
+ 	display: none;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	position: absolute;
+ 	}
+ 	
+ 	ul.wing a:hover{
+ 	background-color: #CCFFFF;
+ 	color: #FF6633;
+ 	}
+ 	
+ 	ul.wing li:hover ul{
+ 	display: block;
+ 	}
+ 	img{
+ 	width:50%;
+ 	}
+ 	#one{
+ 	text-align:center;
+ 	font-size:60px;
+ 	}
+ 	#two{
+ 	text-align:center;
+ 	font-size:30px;
+ 	background-color:black;
+ 	color:green;
+ 	}
+ 	 	#four{
+ 	background-color: black;
+ 	color:yellow;
+	text-align: center;
+	font-size:20px;
+	}
+	
+ 	</style>
+	</head>
+<body>
+	<div id = "box"><h1>牛工大</h1></div>
+	<ul class="wing">
+	<li><a href="index.html">トップ</a></li>
+	<li><a href="company.html">会社概要</a></li>
+	<li><a href="menu.html">メニュー</a>
+		<ul>
+			<li><a href="gyuniku.html">牛肉</a></li>
+			<li><a href="butaniku.html">豚肉</a></li>
+			<li><a href="toriniku.html">鶏肉</a></li>
+		</ul>
+	</li>
+	<li><a href="store.html">当店について</a></li>
+</ul>
+<div id = "one">
+	<h1>会社規模</h1>
+	<img src ="C:\Users\haru2\Downloads\素材\素材\misekadai.jpg">
+	<p>全国に約１００店舗展開中。<br>
+		皆様に知ってもらえるように日々の努力を欠かしません。<br>
+		これからもお客様への笑顔を大切にしていきます。</p>
+</div>
+<div id = "two">
+</p>売り上げ 〇〇億円</p><br>
+</p>従業員数 〇〇人</p><br>
+</p>社長 牛肉 太郎</p><br>
+</div>
+<div id = "four">
+	<p>店名 牛工大</p>
+	<p>場所 〒000-0000 焼肉市美食町1-2-3</p>
+	<p>電話番号 000-456-7890</p>
+	<p>info@yakiniki.umai.up</p>
+	</div>
+</body>

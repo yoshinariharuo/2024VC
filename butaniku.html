@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>メニュー</title>
+	<style type = "text/css">
+		#box {
+	color: #000000;
+	background-color: #FF6633;
+	font-size: 40px;
+	text-align: center;
+	}
+	ul.wing{
+	  margin: 10px;  
+	  padding: 10px 10px 10px 10px; 
+	  background-color: #CCFFFF;
+	 }
+	 
+ 	ul.wing li{
+ 	width:150px;
+ 	display: inline-block;
+ 	list-style-type: none;
+ 	position: relative;
+ 	}
+ 	ul.wing a{
+ 	color: black;
+ 	line-height:40px;
+ 	text-align: center;
+ 	text-decoration:none;
+ 	font-weight: bold;
+ 	display:block;
+ 	}
+ 	
+ 	ul.wing ul{
+ 	display: none;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	position: absolute;
+ 	}
+ 	
+ 	ul.wing a:hover{
+ 	background-color: #CCFFFF;
+ 	color: #FF6633;
+ 	}
+ 	
+ 	ul.wing li:hover ul{
+ 	display: block;
+ 	}
+ 	 img{
+ 	width:50%;
+ 	}
+ 		#one{
+ 		font-size:30px;
+ 		text-align:center;
+ 		background-color:orange;
+ 		}
+ 	 	#four{
+ 	background-color: black;
+ 	color:yellow;
+	text-align: center;
+	font-size:20px;
+	}
+	
+ 	</style>
+	</head>
+<body>
+	<div id = "box"><h1>牛工大</h1></div>
+	<ul class="wing">
+	<li><a href="index.html">トップ</a></li>
+	<li><a href="company.html">会社概要</a></li>
+	<li><a href="menu.html">メニュー</a>
+		<ul>
+			<li><a href="gyuniku.html">牛肉</a></li>
+			<li><a href="butaniku.html">豚肉</a></li>
+			<li><a href="toriniku.html">鶏肉</a></li>
+		</ul>
+	</li>
+	<li><a href="store.html">当店について</a></li>
+</ul>
+<div id = "one">
+	<h1>豚肉</h1>
+	<h2>・トンたん塩</h2>
+	<img src ="C:\Users\haru2\Downloads\素材\素材\butatan.jpg">
+	<p>コリコリ食感を楽しむ。牛タンでなくても満足できます。</p>
+	<h2>・やみつき豚ホルモン</h2>
+	<img src ="C:\Users\haru2\Downloads\素材\素材\butahorumon.jpg">
+	<p>この食感クセになる</p>
+</div>
+<div id = "four">
+	<p>店名 牛工大</p>
+	<p>場所 〒000-0000 焼肉市美食町1-2-3</p>
+	<p>電話番号 000-456-7890</p>
+	<p>info@yakiniki.umai.up</p>
+	</div>
+</body>
